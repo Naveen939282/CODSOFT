@@ -14,7 +14,7 @@ class CurrencyConverter {
         } else if (baseCurrency.equals("GBP") && targetCurrency.equals("EUR")) {
             return 1.14;
         } else {
-            return -1; // Invalid currency code
+            return -1;
         }
     }
 }
